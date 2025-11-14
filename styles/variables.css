@@ -1,4 +1,28 @@
 /*
   Переменные для вашего проекта
-  и их переопределение под различные устройства
+  и их переопределение под различные устройства.
 */
+
+:root {
+  /* Темная тема по умолчанию */
+  --background-color: #000028;
+  --background-image: url("../images/cover-image-dark.png");
+  --accent-color: #ff0070;
+  --heading-color: #db00ff;
+  --p-text-color: #f1b2ce;
+  --section-title: #ff0070;
+  --color-corners: #ff0070;
+
+  /* Тень для текста */
+  --text-shadow-offset: 4px 4px 0 var(--accent-color);
+
+  /* Фоновое изображение для темной и светлой темы */
+  --background-image-dark: url(../images/cover-image-dark.png);
+  --background-image-light: url(../images/cover-image-light.png);
+
+  /* Шрифт */
+  --font-family: "IBM Plex Mono", monospace;
+
+  /* Размер шрифта */
+  --font-size: 18px;
+}
