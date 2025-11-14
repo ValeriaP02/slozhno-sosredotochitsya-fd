@@ -8,18 +8,16 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 375px;
 }
 
 /*  Стили для шапки страницы */
 .header {
   display: grid;
-  min-height: 668px;
   position: relative;
+  min-height: 668px;
   height: 100vh;
   box-sizing: border-box;
-  align-items: center;
-  padding: 20px;
+  grid-template-rows: 1fr min-content 1fr;
 }
 
 /* Медиазапрос для экранов шириной до 375px */
@@ -31,13 +29,11 @@
 
 /* Стили для заголовка */
 .header__title {
-  justify-self: start;
-  align-self: center;
   text-shadow: var(--text-shadow-offset);
   margin: 0;
   color: var(--heading-color);
   line-height: 83%;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  justify-self: start;
 }
 
 /* Медиазапрос для экранов шириной от 768px */
@@ -50,10 +46,12 @@
 /* Стили для подзаголовка */
 .header__subtitle {
   justify-self: end;
+  align-self: end;
   font-size: var(--font-size);
   font-weight: 700;
   line-height: 23.4px;
   max-width: 491px;
+  margin-right: 20px;
 }
 
 /* Стили для меню выбора темы */
@@ -66,7 +64,7 @@
 .header__theme-menu-list {
   display: grid;
   list-style-type: none;
-  padding: 0;
+  padding: 20px;
   margin: 0;
   gap: 10px;
 }
@@ -269,7 +267,6 @@
 /* Стили для параграфа (текста) карточки */
 .card__paragraph {
   color: var(--p-text-color);
-  font-size: 16px;
   font-weight: 400;
   font-size: var(--font-size);
   line-height: 23.4px;
@@ -279,6 +276,7 @@
 @media (max-width: 375px) {
   .content-section {
     grid-template-columns: 1fr;
+    margin-bottom: 50px;
   }
 
   .content-section__wrapper {
@@ -307,10 +305,6 @@
     margin-bottom: 40px;
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  .content-section {
-    margin-bottom: 50px;
   }
 }
 
@@ -397,7 +391,6 @@ a:focus-visible {
 
 /* Стили для заголовка подвала */
 .footer__title {
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: var(--text-shadow-offset);
   margin: 0;
