@@ -172,8 +172,14 @@ a:hover {
   width: 9px;
 }
 
-.theme-light .rec-indicator {
+/* Скрываем индикатор в светлой теме */
+:root.theme-light .rec-indicator {
   display: none;
+}
+
+/* Показываем индикатор в тёмной теме */
+:root.theme-dark .rec-indicator {
+  display: flex;
 }
 
 /* ---------------------------------------------------------------------------------------------- */
@@ -253,12 +259,15 @@ a:hover {
 
 .content-section__wrapper {
   display: grid;
-  flex-direction: column;
 }
 
 .content-section__wrapper_columns {
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.card__title {
+  margin-bottom: 10px;
 }
 
 .card__paragraph {

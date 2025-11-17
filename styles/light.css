@@ -34,4 +34,8 @@
     --section-title: #353430; /* Цвет заголовков секций */
     --menu-color: #353430; /* Цвет меню */
   }
+
+  .rec-indicator {
+    display: none;
+  }
 }
