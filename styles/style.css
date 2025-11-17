@@ -252,6 +252,10 @@ a:hover {
   font-weight: 400;
 }
 
+.content-section__subtitle {
+  margin-bottom: 0;
+}
+
 .content-section__wrapper {
   display: grid;
 }
