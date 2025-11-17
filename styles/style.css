@@ -263,6 +263,10 @@ a:focus-visible {
   grid-template-columns: 1fr; /* Для мобильных */
 }
 
+.card__title {
+  margin-bottom: 10px;
+}
+
 .card__paragraph {
   color: var(--p-text-color);
   font-weight: 400;
@@ -299,6 +303,7 @@ a:focus-visible {
 
   .card__title {
     margin-top: 0;
+    margin-bottom: 10px;
   }
 }
 
@@ -306,6 +311,10 @@ a:focus-visible {
   .content-section__wrapper_columns {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+  }
+
+  .card__title {
+    margin-bottom: 10px;
   }
 }
 
