@@ -246,15 +246,10 @@ a:hover {
 .section__title {
   color: var(--section-title);
   font-size: var(--font-size);
-  margin: 0;
 }
 
 .normal-title {
   font-weight: 400;
-}
-
-.content-section__subtitle {
-  margin-bottom: 0;
 }
 
 .content-section__wrapper {
