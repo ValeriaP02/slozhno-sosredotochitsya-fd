@@ -266,6 +266,11 @@ a:hover {
   grid-template-columns: 1fr;
 }
 
+.card__title {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .card__paragraph {
   color: var(--p-text-color);
   font-size: var(--font-size);
