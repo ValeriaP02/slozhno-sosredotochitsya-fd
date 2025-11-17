@@ -18,3 +18,20 @@
   --section-title: #353430; /* Цвет заголовков секций */
   --menu-color: #353430; /* Цвет меню */
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Общие настройки для светлой темы */
+    --background-color: #fff1f7; /* Цвет фона */
+    --background-image: url(../images/cover-image-light.png); /* Фоновое изображение */
+    --accent-color: #ff8dcb; /* Акцентный цвет */
+    --color-corners: #353430; /* Декоративные уголки */
+
+    /* Настройки текста */
+    --text-color: #353430; /* Цвет текста в закрашенных областях */
+    --heading-color: #ffc2e6; /* Цвет заголовков (шапка и подвал) */
+    --p-text-color: #353430; /* Цвет текста в параграфах */
+    --section-title: #353430; /* Цвет заголовков секций */
+    --menu-color: #353430; /* Цвет меню */
+  }
+}
