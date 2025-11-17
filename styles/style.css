@@ -26,7 +26,8 @@
   align-self: flex-start;
   line-height: 83%;
   margin: 0;
-  font-size: var(--footer-title-font-size-mobile); /* Для мобильных */
+  font-size: var(--footer-title-font-size-mobile);
+  /* Для мобильных */
 }
 
 .header__subtitle {
@@ -35,8 +36,10 @@
   font-size: var(--font-size);
   font-weight: 700;
   line-height: 23.4px;
-  margin-left: 10px; /* Для мобильных */
-  margin-right: 10px; /* Для мобильных */
+  margin-left: 10px;
+  /* Для мобильных */
+  margin-right: 10px;
+  /* Для мобильных */
 }
 
 @media (min-width: 768px) {
@@ -48,9 +51,8 @@
     grid-column: 1 / span 2;
     align-self: center;
     padding-bottom: 0;
-    font-size: var(
-      --footer-title-font-size-desktop
-    ); /* Для планшета и десктопа */
+    font-size: var(--footer-title-font-size-desktop);
+    /* Для планшета и десктопа */
   }
 
   .header__subtitle {
@@ -61,9 +63,12 @@
 
 @media (min-width: 1024px) {
   .header__subtitle {
-    margin-top: 0; /* Для десктопа */
-    margin-left: 0; /* Для десктопа */
-    margin-right: 20px; /* Для десктопа */
+    margin-top: 0;
+    /* Для десктопа */
+    margin-left: 0;
+    /* Для десктопа */
+    margin-right: 20px;
+    /* Для десктопа */
   }
 }
 
@@ -78,7 +83,8 @@
 .header__theme-menu-list {
   display: grid;
   list-style-type: none;
-  padding: 10px; /* Для мобильных */
+  padding: 10px;
+  /* Для мобильных */
   gap: 10px;
 }
 
@@ -149,8 +155,10 @@ a:focus-visible {
 .rec-indicator {
   display: flex;
   position: absolute;
-  top: 10px; /* Для мобильных */
-  right: 19px; /* Для мобильных */
+  top: 10px;
+  /* Для мобильных */
+  right: 19px;
+  /* Для мобильных */
   color: var(--accent-color);
   z-index: 1;
   align-items: center;
@@ -194,15 +202,19 @@ a:focus-visible {
 }
 
 .decorated-zone::before {
-  top: 10px; /* Для мобильных */
-  right: 10px; /* Для мобильных */
+  top: 10px;
+  /* Для мобильных */
+  right: 10px;
+  /* Для мобильных */
   border-bottom: none;
   border-left: none;
 }
 
 .decorated-zone::after {
-  bottom: 10px; /* Для мобильных */
-  left: 10px; /* Для мобильных */
+  bottom: 10px;
+  /* Для мобильных */
+  left: 10px;
+  /* Для мобильных */
   border-top: none;
   border-right: none;
 }
@@ -227,16 +239,22 @@ a:focus-visible {
 }
 
 .content {
-  margin-top: 40px; /* Для мобильных */
-  margin-bottom: 40px; /* Для мобильных */
-  padding-left: 10px; /* Для мобильных */
-  padding-right: 10px; /* Для мобильных */
+  margin-top: 40px;
+  /* Для мобильных */
+  margin-bottom: 40px;
+  /* Для мобильных */
+  padding-left: 10px;
+  /* Для мобильных */
+  padding-right: 10px;
+  /* Для мобильных */
 }
 
 .content-section {
   display: grid;
-  grid-template-columns: 1fr; /* Для мобильных */
-  margin-bottom: 50px; /* Для мобильных */
+  grid-template-columns: 1fr;
+  /* Для мобильных */
+  margin-bottom: 50px;
+  /* Для мобильных */
 }
 
 .section__title {
@@ -260,7 +278,8 @@ a:focus-visible {
 
 .content-section__wrapper_columns {
   display: grid;
-  grid-template-columns: 1fr; /* Для мобильных */
+  grid-template-columns: 1fr;
+  /* Для мобильных */
 }
 
 .card__title {
@@ -345,6 +364,10 @@ a:focus-visible {
     margin-top: 0;
   }
 
+  .content-section__subtitle {
+    margin-top: 0;
+  }
+
   .photo-grid__container {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -391,13 +414,13 @@ a:focus-visible {
   color: var(--heading-color);
   font-weight: 700;
   margin: 0;
-  font-size: var(--footer-title-font-size-mobile); /* Для мобильных */
+  font-size: var(--footer-title-font-size-mobile);
+  /* Для мобильных */
 }
 
 @media (min-width: 768px) {
   .footer__title {
-    font-size: var(
-      --footer-title-font-size-desktop
-    ); /* Для планшета и десктопа */
+    font-size: var(--footer-title-font-size-desktop);
+    /* Для планшета и десктопа */
   }
 }
