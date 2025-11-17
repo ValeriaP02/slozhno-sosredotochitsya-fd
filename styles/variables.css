@@ -13,6 +13,7 @@
   --section-title: #ff0070;
   --color-corners: #ff0070;
   --menu-color: #ff0070; /* Цвет меню */
+  --text-color: #000028; /* Цвет текста в закрашенных областях */
 
   /* Тень для текста */
   --text-shadow-offset: 4px 4px 0 var(--accent-color);
