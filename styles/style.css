@@ -24,13 +24,14 @@
   color: var(--heading-color);
   font-weight: 700;
   align-self: flex-start;
-  margin-bottom: 0;
+  line-height: 83%;
+  margin: 0;
   font-size: var(--footer-title-font-size-mobile); /* Для мобильных */
 }
 
 .header__subtitle {
   justify-self: end;
-  align-self: start;
+  align-self: center;
   font-size: var(--font-size);
   font-weight: 700;
   line-height: 23.4px;
@@ -58,6 +59,14 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .header__subtitle {
+    margin-top: 0;
+    margin-left: 0; /* Для десктопа */
+    margin-right: 20px; /* Для десктопа */
+  }
+}
+
 /* ---------------------------------------------------------------------------------------------- */
 
 .header__theme-menu {
@@ -81,7 +90,7 @@
 
   .header__theme-menu-list {
     padding: 20px;
-    gap: 20px;
+    gap: 10px;
   }
 }
 
@@ -233,6 +242,7 @@ a:focus-visible {
 .section__title {
   color: var(--section-title);
   margin: 0;
+  font-size: var(--font-size);
 }
 
 .normal-title {
@@ -292,6 +302,10 @@ a:focus-visible {
 }
 
 /* ---------------------------------------------------------------------------------------------- */
+
+.content-section-gallery {
+  font-size: var(--font-size);
+}
 
 .photo-grid__container {
   display: grid;
