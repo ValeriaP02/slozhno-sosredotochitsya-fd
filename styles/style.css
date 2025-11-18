@@ -245,7 +245,7 @@ a:hover {
   color: var(--section-title);
   font-size: var(--font-size);
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .normal-title {
