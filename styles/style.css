@@ -172,12 +172,10 @@ a:hover {
   width: 9px;
 }
 
-/* Скрываем индикатор в светлой теме */
 :root.theme-light .rec-indicator {
   display: none;
 }
 
-/* Показываем индикатор в тёмной теме */
 :root.theme-dark .rec-indicator {
   display: flex;
 }
