@@ -18,3 +18,7 @@
   --section-title: #ff0070; /* Цвет заголовков секций */
   --menu-color: #ff0070; /* Цвет меню */
 }
+
+:root.theme-dark .rec-indicator {
+  display: flex;
+}

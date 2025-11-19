@@ -15,11 +15,8 @@
   --text-color: #000028; /* Цвет текста в закрашенных областях */
 
   /* Тень для текста */
-  --text-shadow-offset: 4px 4px 0 var(--accent-color);
-
-  /* Фоновое изображение для темной и светлой темы */
-  --background-image-dark: url(../images/cover-image-dark.png);
-  --background-image-light: url(../images/cover-image-light.png);
+  --header-shadow: 4px 4px 0px var(--accent-color);
+  --footer-shadow: 2px 2px 0px var(--accent-color);
 
   /* Шрифт */
   --font-family: "IBM Plex Mono", monospace;
@@ -27,11 +24,7 @@
   /* Размер шрифта */
   --font-size: 18px; /* Размер шрифта по умолчанию */
 
-  /* Размер шрифта для заголовка футера */
-  --footer-title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --footer-title-font-size-desktop: clamp(
-    7.5rem,
-    0.5625rem + 14.4531vw,
-    9.8125rem
-  );
+  /* Размер шрифта для заголовка шапки и подвала */
+  --heading-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --heading-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }

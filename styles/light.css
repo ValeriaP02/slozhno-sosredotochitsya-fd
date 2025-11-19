@@ -19,6 +19,10 @@
   --menu-color: #353430; /* Цвет меню */
 }
 
+:root.theme-light .rec-indicator {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     /* Общие настройки для светлой темы */
