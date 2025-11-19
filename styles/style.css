@@ -346,6 +346,7 @@ a:hover {
 
 .content-section-gallery {
   font-size: var(--font-size);
+  margin-bottom: 10px;
 }
 
 .photo-grid__container {
