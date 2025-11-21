@@ -135,7 +135,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--menu-color);
+  border: 1px solid rgba(var(--menu-color-rgb), 0.4);
 }
 
 .header__theme-menu-button_active {

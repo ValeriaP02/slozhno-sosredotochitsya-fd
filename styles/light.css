@@ -17,6 +17,7 @@
   --p-text-color: #353430; /* Цвет текста в параграфах */
   --section-title: #353430; /* Цвет заголовков секций */
   --menu-color: #353430; /* Цвет меню */
+  --menu-color-rgb: 50, 49, 45;
 }
 
 :root.theme-light .rec-indicator {
@@ -37,6 +38,7 @@
     --p-text-color: #353430; /* Цвет текста в параграфах */
     --section-title: #353430; /* Цвет заголовков секций */
     --menu-color: #353430; /* Цвет меню */
+    --menu-color-rgb: 50, 49, 45;
   }
 
   .rec-indicator {

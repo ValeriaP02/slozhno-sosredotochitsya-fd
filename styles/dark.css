@@ -17,6 +17,7 @@
   --p-text-color: #f1b2ce; /* Цвет текста в параграфах */
   --section-title: #ff0070; /* Цвет заголовков секций */
   --menu-color: #ff0070; /* Цвет меню */
+  --menu-color-rgb: 255, 0, 112;
 }
 
 :root.theme-dark .rec-indicator {
